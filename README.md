@@ -71,7 +71,7 @@ After this is where things start to differ, depending on the desired output, the
 
 If a map image is selected as the desired output, the analyzer will iterate through every frame and create a running total for each pixel of how many frames are yellow and then turn that into a percentage of how often it was yellow during the video.
 
-![Video Total Counter](fdm_video_total.png)
+![Video Total Counter](fdm_video_totals.png)
 
 Once the video has been processed, it then converts these values into a map. This is displayed through a gradient: Black -> Magenta -> White, where the whitest pixel is the one with the highest density, all pure black pixels have 0 density, and the Magenta pixel point can be custom set for higher/lower sensitive maps.
 
